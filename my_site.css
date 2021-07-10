@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0%;
+    background-image: url(123.jpg);
+    background-size: cover; 
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h1{
+    margin: 0;
+    padding-top:1px;
+    font-weight: bolder;
+    color:aquamarine;    
+    font-size: 45px;
+    font-family: fantasy;
+    text-align: center;
+}
+.box_1{
+width: 400px;
+height: 420px;
+color: rgb(8, 8, 8);
+top: 50%;
+left: 50%;
+padding: 60px 30px;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+box-shadow: 9px 9px 50px #000;
+text-align: center;
+
+}
+.box_1 input{
+    width: 100%;
+    margin-bottom:20px;
+}
+
+.box_1 input[type=text],.box_1 input[type=password]{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background:transparent;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+    opacity: inherit;
+    color: #ccc;
+}
+.box_1 input[type=submit]{
+    font-weight:bold;
+    margin-bottom:6%;
+  font-size:20px;
+  border-color:silver;
+  background-color:transparent;
+  color:plum;
+  border-radius:35px;
+  width:50%;
+  box-shadow:5px 5px 16px cadetblue;
+  
+}
+.box_1 input[type=submit]:hover{
+    color:rgb(250, 56, 170);
+    
+    cursor: pointer;
+
+}
+.bottom-text{
+    color: azure;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: left;
+
+}
+.bottom-text input {
+    width: 10%;
+    float: left;
+}
+.fp{
+    text-align:right;
+    
+
+}
+.btn {
+    color:yellow;
+    background:transparent;
+    font-style: oblique;
+    font-weight: bold;
+    border:none;
+    text-decoration: underline;
+    text-decoration-color: white;
+
+
+}
+.res {
+    text-align: justify;
+    color:goldenrod;
+    background:transparent;
+    font-style: oblique;
+    font-weight: bold;
+    border:none;
+    text-decoration: underline;
+    text-decoration-color: white;
+    padding-top: 10% ;
+    font-size: 15pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
